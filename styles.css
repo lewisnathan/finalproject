@@ -1,0 +1,54 @@
+#map {
+  position: absolute; 
+  height: 100%; 
+  width: 80%; 
+  right: 0px;
+}
+
+.info-bar {
+  position: absolute;
+  height: 100%;
+  width: 20%;
+  left: 0px;
+}
+
+h2 {
+  text-align: center;
+  margin: 20px;
+}
+
+.weatherreport {
+  border: 2px solid black;
+  position: relative;
+  height: auto;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 12px;
+  background-color: var(--back-color);
+}
+  
+.weatherreport:hover {
+  background: lightblue;
+}
+
+.custompopup .leaflet-popup-tip, .custompopup .leaflet-popup-content-wrapper {
+  text-align: center;
+}
+
+button {
+  width: 125px;
+  background-color: blue;
+  font-size: 12px;
+  border-radius: 4px;
+  transition-duration: 0.4s;
+  color: white;
+  margin: 5px;
+}
+
+button:hover {
+  background-color: navy;
+  color: white;
+}
